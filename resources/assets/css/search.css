@@ -1,0 +1,38 @@
+.s-ctn{
+    display: flex;
+    justify-content: center;
+}
+.s-ctn a{
+    margin-right: 5px;
+}
+.s-input{
+    border: 1px solid lightgreen;
+    background-color: black;
+    color: lightgreen;
+    padding: 5px;
+    display: block;
+    height: 40px;
+    font-size: 20px;
+    width: 400px;
+}
+.si-ctn{
+    position: relative;
+}
+#s-result-popup{
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+.srp-elm{
+    padding: 10px;
+    border: 1px solid lightgreen;
+    border-top: none;
+    background-color: #333333;
+    cursor: pointer;
+}
+.srp-elm:hover{
+    background-color: #575757;
+}
+.srp-elm:first-child{
+    border-top: 1px solid lightgreen;
+}

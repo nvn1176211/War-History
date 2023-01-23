@@ -1,0 +1,35 @@
+.logo{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo>h1{
+    margin: 0;
+}
+.l-right{
+    display: flex;
+}
+#lang-select{
+    border: 1px solid lightgreen;
+    background-color: black;
+    color: lightgreen;
+}
+.l-acc{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgreen;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 15px;
+}
+.l-acc>i{
+    margin-right: 7px;
+}
+.login-group{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}

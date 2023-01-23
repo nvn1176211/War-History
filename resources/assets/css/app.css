@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: lightgreen !important;
+}
+a{
+    text-decoration: underline;
+    color: lightgreen !important;
+}
+a:link, a:visited, a:hover, a:active{
+    color: initial;
+}
+
+/* index page css */
+.group-ctn{
+    display: flex;
+}
+.group{
+    border: 1px solid lightgreen;
+    padding-right: 15px;
+}
+.group-name{
+    padding-left: 10px;
+    padding-top: 15px;
+}
