@@ -7,7 +7,7 @@
 
 - Form validation.
 - Login,register.
-- Send email.
+- Send email(after regist success).
 - Ajax handling(jquery)
 - Search.
 - CSS responsive.

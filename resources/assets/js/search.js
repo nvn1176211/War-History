@@ -10,7 +10,7 @@ $(function(){
             let i = 0;
             while(result[i]){
                 $('#s-result-popup').append('<div class="srp-elm" code-val="'+result[i].code_name+'">'+result[i].name+'</div>');
-                $('#events-ctn').append('<div class="event"><a href="/event/' + result[i].id + '"></a><img src="img/' + result[i].thumbnail + '" width="500" alt=""><div class="event-name">' + result[i].year + ': ' + result[i].name + '</div></div>');
+                $('#events-ctn').append('<div class="event" event-id="' + result[i].id + '"><img src="img/' + result[i].thumbnail + '" width="500" alt=""><div class="event-name">' + result[i].year + ': ' + result[i].name + '</div></div>');
                 i++;
             }
         });
