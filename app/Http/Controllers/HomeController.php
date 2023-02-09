@@ -10,7 +10,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        //1
+        //12
         $events = Event::orderBy('year')->get();
         return view('index', [
             'events'=>$events,

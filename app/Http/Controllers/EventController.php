@@ -10,6 +10,7 @@ class EventController extends Controller
 {
     public function index($id)
     {
+        //1
         $event = Event::find($id);
         return view('pages.event', ['event'=>$event]);
     }
